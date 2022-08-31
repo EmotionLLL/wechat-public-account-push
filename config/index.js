@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "5464f8943f64f207b29651f8e8b6c297",
 
     // 模板消息id
-    TEMPLATE_ID: "oVzqp5jkHGdc5S3zYvR0iGtfa49A",
+    TEMPLATE_ID: "wx759a867a022295ba",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "oVzqp5jkHGdc5S3zYvR0iGtfa49A",
+    CALLBACK_TEMPLATE_ID: "wx759a867a022295ba",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     USERS: [
