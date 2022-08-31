@@ -33,7 +33,7 @@ export const config = {
     // 所在省份
     PROVINCE: "北京市",
     // 所在城市
-    CITY: "北京",
+    CITY: "海淀区",
 
     /** 重要节日相关 */
 
