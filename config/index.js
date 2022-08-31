@@ -17,7 +17,7 @@ export const config = {
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     USERS: [
-      {name: '哥哥崽', id: "oVzqp5gnrBvHq5xbX5rkpgVY0dWU"},  
+      {name: '哥哥崽', id: "oVzqp5jkHGdc5S3zYvR0iGtfa49A"},  
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -63,7 +63,11 @@ export const config = {
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
     LITERARY_PREFERENCE: ""
 
-
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天国际时间2:00 运行, 即北京时间 10:00 运行
+    - cron: '0 4 * * *'
     }
 
 // {{date.DATA}}  
