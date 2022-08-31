@@ -63,11 +63,7 @@ export const config = {
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
     LITERARY_PREFERENCE: ""
 
-    on:
-  workflow_dispatch:
-  schedule:
-    # 每天国际时间2:00 运行, 即北京时间 10:00 运行
-    - cron: '0 2 * * *'
+  
 
     }
 
